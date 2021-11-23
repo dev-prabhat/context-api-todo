@@ -11,7 +11,7 @@ body {
   background-color: rgb(104, 104, 104);
 }
 h1 {
-  position: absolute;
+  /* position: fixed; */
   text-align: center;
   margin-top: 20px;
   color: aliceblue;
