@@ -5,6 +5,8 @@ import './App.css'
 
 import TodoContext from './Context/TodoContext'
 import TodoReducer from './Context/reducer'
+import TodoForm from './Components/TodoForm'
+import Todos from './Components/Todos'
 
 
 const App = () => {
@@ -14,6 +16,8 @@ const App = () => {
       <TodoContext.Provider value={{ todos, dispatch }}>
         <Container fluid>
           <h1>Todo List with Context API</h1>
+          <TodoForm />
+          <Todos />
         </Container>
       </TodoContext.Provider>
     </div>
